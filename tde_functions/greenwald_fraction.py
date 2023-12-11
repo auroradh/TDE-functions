@@ -6,7 +6,7 @@ def greenwald_fraction(shot, t_start, t_end, minor_radius=0.22):
 	import numpy as np
 	import cmod_functions as cmod
 
-	# Save all plasma parameters for each scan
+	# Extract plasma parameters from cmod_functions
 	toroidal_magnetic_field_time, toroidal_magnetic_field = cmod.plasma_parameters.get_toroidal_magnetic_field(shot)
 	plasma_current_time, plasma_current = cmod.plasma_parameters.get_plasma_current(shot)
 	line_integrated_density_time, line_integrated_density = cmod.plasma_parameters.get_line_integrated_density(shot)
@@ -27,5 +27,5 @@ def greenwald_fraction(shot, t_start, t_end, minor_radius=0.22):
 	# Greenwald density limit needs to be in terms of 10^20 m^-3
 	greenwald_density = greenwald_density*1e-20
 
-	# return Greenwald fraction
+	# return the Greenwald fraction
 	return averaged_line_average_density / greenwald_density
