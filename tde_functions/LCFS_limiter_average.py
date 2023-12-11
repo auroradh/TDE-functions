@@ -5,19 +5,22 @@ def LCFS_limiter_positions(shot, t_start, t_end, num_time_steps=50, foldername=N
 	Extracts the radial and poloidal positions of the last closed flux surface (LCFS) 
 	and limiter shadow in major radius coordinates for given shots using EFIT.
 
-	The functions 'calculate_splinted_LCFS' og 'calculated_splinted_limiter' 
+	The functions 'calculate_splinted_LCFS' and 'calculated_splinted_limiter' 
 	interpolates the spatial positions in order to obtain better resolution
 	of the LCFS and the limiter shadow.
 
 	Need to specify time window for the shot in order to extract 
 	a given time point from where to calculate the LCFS. Since the LCFS is not stationary, 
-	we make an average of the LCFS position by looking at e.g. 50 time points for TDE velocity plot. 
+	we make an average of the LCFS position by looking at e.g. 50 time points for TDE velocity plot.
+
+ 	Note: Dependency on https://github.com/sajidah-ahmed/cmod_functions.
 
 	Args:
 	- shot: Shot number
 	- t_start: start of time series
 	- t_end: end of time series
 	- num_time_steps: Number of points from where to find min, max and mean LCFS location
+ 	- foldername: To save variables in a npz file, specify the foldername
 
 	Returns:
 	- R_LCFS_mean: Mean value from all time points of R_LCFS in cm
