@@ -16,7 +16,7 @@ setup(
     url="https://github.com/auroradh/TDE-functions",
     license="MiT",
     version="1.0",
-    packages=["cmod_functions"],
+    packages=["tde_functions"],
     python_requires=">=3.0",
     install_requires=[
         "numpy>=1.18.0",
