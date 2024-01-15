@@ -5,10 +5,10 @@ This repository contains functions for extracting data needed to plot a 3 point 
 
 # Dependencies: 
 This repository depends on the following GitHub repositories:
-1. For estimating velocities: https://github.com/uit-cosmo/velocity-estimation
-2. For extracting APD data from C-Mod: https://github.com/sajidah-ahmed/cmod_functions
+1. To estimate 3 point velocities: https://github.com/uit-cosmo/velocity-estimation
+2. To extract APD data from C-Mod: https://github.com/sajidah-ahmed/cmod_functions
 3. For running normalization: https://github.com/uit-cosmo/fpp-analysis-tools 
-4. For plotting interface: https://github.com/uit-cosmo/cosmoplots 
+4. Plotting interface: https://github.com/uit-cosmo/cosmoplots 
 
 # Installation
 
