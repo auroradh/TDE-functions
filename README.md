@@ -1,5 +1,6 @@
-# 3TDE
-Plot 3 point time delay estimation. 
+# TDE-functions
+Plotting 3 point time delay estimation. 
+
 This repository contains functions for extracting data needed to plot a 3 point time delay estimation. It also contains a guide showing how to use the 3 point time delay estimation method and how to plot the resulting velocity field for Alcator C-Mod and W7X.
 
 # Dependencies: 
