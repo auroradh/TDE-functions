@@ -7,6 +7,7 @@ This repository contains functions for extracting data needed to plot a 3 point 
 These plotting functions depend on the following two GitHub repositories:
 1. https://github.com/uit-cosmo/velocity-estimation
 2. https://github.com/sajidah-ahmed/cmod_functions
+3. https://github.com/uit-cosmo/fpp-analysis-tools 
 
 # Installation
 
