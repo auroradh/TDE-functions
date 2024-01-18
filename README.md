@@ -8,8 +8,6 @@ There are three guides for plotting the velocity field
 2. ```how_to_plot_3TDE_field.ipynb```: Load data and plot velocity field from local machine
 3. ```how_to_plot_3TDE_field_W7X.ipynb```: Load data and plot velocity field for W7X.
 
-There are three guides 
-
 # Dependencies
 This repository depends on the following GitHub repositories:
 1. To estimate 3 point velocities: https://github.com/uit-cosmo/velocity-estimation. 
